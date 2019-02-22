@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- links the javascript and CSS file -->
+        <script src="loginJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="loginFormat.css" />
+        <title>Sign In</title>
+    </head>
+    <body>
+        <!-- creates a div for input boxes and buttons to login-->
+        <div class="logincontainer">
+            <div class="loginbox">
+                <h1>Login</h1>
+                <img HEIGHT="158" WIDTh="148" class="image" src="https://sysinfo.io/wp-content/uploads/2017/10/lock-icon.png">
+                <br><br>
+                <label class=radiocontainer>
+                    <input type="radio" id="adminbox" name="box">Admin
+                    <input type="radio" id="memberbox" name="box">Member
+                </label> 
+                <br> 
+                <h3>Username</h3>
+                <br>
+                <input type="text" id="username" placeholder="Enter your username">
+                <br> 
+                <h3>Password</h3>
+                <br>
+                <input type="password" id="password" placeholder="Enter your password">
+                <br>
+                <div id="registerbuttons">
+                    <button type="submit" onclick="login()" id="homelogin">Login</button>                        <br>
+                    <button type="submit" onclick="window.location.href='register.html'" id="homeregister">Register</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

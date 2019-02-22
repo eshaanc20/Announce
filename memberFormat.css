@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    background-image: url("MemberBackground.jpg");
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+.active {
+    background-color: darkgreen;
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 28px;
+    font-size: 20px;
+}
+.topnav a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+.topnav a.active {
+    color: white;
+}
+#create {
+    background-color: lightgray;
+    width: 340px;
+    height: 380px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;  
+}
+#button {  
+    margin-left: 290px;
+    margin-top: 4px;
+    font-size: 18px;
+    background-color: #41A317;
+    border: 1px solid black;
+    color: white;
+}
+#announcementdisplay {
+    width: 340px;
+    height: 180px;
+    vertical-align: middle;
+    margin-top: 14px;
+}
+#displayannouncement {
+    margin-left: 10px;
+}
+#displaytitle {
+    margin-left: 49vw;
+    color: darkred;
+    font-size: 18px;
+}
+#joindisplaytitle {
+    margin-left: 352px;
+    color: darkred;
+    margin-top: 4vh;
+    font-size: 14px;
+}
+td {
+    border: 1px solid black;
+}
+#announcementdisplay {
+    width: auto;
+    height: 140px;
+    margin-left: 14%;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+}
+#tableformat {
+    height: 100vh;
+    width: 820px;
+    float: right;
+    position: relative;
+    padding-bottom: 2px;
+    overflow: scroll;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 4px;
+}
+#creatediv {
+    margin-left: 500px;
+    margin-top: 80px;
+}
+#clubdisplay {
+    width: 40px;
+    height: 10px;
+    margin-left: 8%;
+    width: 345px;
+    padding: 20px;
+    text-align: center;
+}
+#clubtableformat {
+    background-color: white;
+    border: 4px solid black;
+    height: 70vh;
+    width: 420px;
+    float: left;
+    margin-left: 14vw;
+    padding-bottom: 2px;
+    overflow: scroll;
+    border-radius: 20px;
+}
+#addcontainer {
+    border-radius: 20px;
+    float: right;
+    margin-left: 8vw;
+    padding: 1% 2%;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+#memberfilterbutton {
+    font-size: 20px;
+    width: 250px;
+    margin-top: 20px;
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 24px;
+}
+#clubname {
+    font-size: 15px;
+}
+#filter {
+    background-image: url("https://ctl.s6img.com/society6/img/u8nT3oI8h94wf-zQRM0fySsggDI/w_700/comforters/swatch/~artwork,fw_6000,fh_6000,fx_-2086,iw_10172,ih_6000/s6-original-art-uploads/society6/uploads/misc/b0e501ffc38a44a5afd0180d1d50246e/~~/color-gradient-background-fading-sunset-sky-colors-comforters.jpg");
+    border-radius: 20px;
+    width: 180px;
+    height: 200px;
+    font-size: 24px;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-left: 4vw;
+}
+#name {
+    font-size: 30px;
+    padding: 2px;
+    color: white;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#announcementContainer{
+    position: relative;
+    justify-content: center;
+    float: left;
+    position: relative;
+    left: center;
+    display: flex;
+    margin-left: 12vw;
+}
+input[type="radio"] {
+    margin-top: 20px;
+}
+#container {
+    position: relative;
+    justify-content: center;
+    float: left;
+    position: relative;
+    left: center;
+    display: flex;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 24px;
+    color: black;
+    font-size: 12px;
+    width: 240px;
+    margin-bottom: 10px;
+}
+#addclub{
+    text-align: center;
+}

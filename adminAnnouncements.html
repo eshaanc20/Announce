@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--The next two following line of code links the javascript and CSS files-->
+        <script src="adminJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="adminFormat.css"/>
+        <title>Announcements</title>
+    </head>
+    <!--the function to update and display announcements is performed when the page is opened-->
+    <body onload="onloadannouncement()">
+        <!--this div creates a navigation bar at the top of the screen to switch between pages-->
+        <div class="topnav">
+            <a href="index.html">Sign Out</a>
+            <a href="adminCreate.html">Create</a>
+            <a class="active" href="adminAnnouncements.html">Announcements</a>
+        </div>
+        <div id="displaytitle">
+            <h1>Latest announcements</h1>
+        </div>
+        <!--creates a table that would help create rows for each announcement-->
+        <div id = "announcementContainer">
+            <div id = "tableformat">
+                <table cellspacing = "10px" id="announcementdisplay"></table>
+            </div>
+            <!-- creates radio checkboxes that help generate a filter-->
+            <div id="filter">
+                <h3>Filters</h3>
+                <input id="clubfilter" type="radio" name="filtertype" onclick="clubfilter()">Clubs<br>
+                <input id="teamfilter" type="radio" name="filtertype" onclick="teamfilter()">Teams<br>
+                <input id="allfilter" type="radio" name="filtertype" onclick="onloadannouncement()">All<br>
+            </div>
+        </div>
+    </body>
+</html>

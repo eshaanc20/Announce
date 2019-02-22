@@ -1,0 +1,65 @@
+.registercontainer{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    top: 10vh;
+}
+.registerbox{
+    left: 39%;
+    padding: 2% 6%;
+    width: 200px;
+    position: relative;
+    align-content: center;
+    color: white;
+    height: 80%;
+    background-image: url("RegisterBox.jpg");
+    border-radius: 40px;
+}
+body{
+    background-image: url("BackgroundRegister.jpg");
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 24px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+}
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 24px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+}
+#registerchoice{
+    margin-top: 10px;
+    size: 20px;
+    font-size: 12px;
+    color: green;
+}
+#registerbutton{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 14px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#loginbutton{
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    margin-top: 14px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+}

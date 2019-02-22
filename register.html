@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- links the javascript file -->
+        <script src="registerJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="registerFormat.css"/>
+        <title>Register</title>
+    </head>
+    <body>
+        <!--creates the required buttons, dropdown menu and input boxes to create a new account-->
+        <div class="registercontainer">
+            <div class="registerbox">
+                <img id="image" HEIGHT="158" WIDTh="148" src="http://soarbc.com/wp/wp-content/uploads/registericonpatrol.png">
+                <h3>Username</h3>
+                <input placeholder="Create a username" type="text" id="registerusername"><br>
+                <h3>Password</h3>
+                <input placeholder="Create a password" type="password" id="registerpassword"><br>
+                <select id="registerchoice">
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="adminoption">I am an admin</option>
+                    <option value="memberoption">I am a member</option>
+                </select><br>
+                <button type="submit" onclick="register()" id="registerbutton">Register</button>
+                <form action="index.html">
+                    <button type="submit" id="loginbutton">Login</button>
+                </form>
+            </div>
+        </div>
+    </body>

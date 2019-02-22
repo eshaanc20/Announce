@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="adminJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="adminFormat.css"/>
+        <title>Create</title>
+    </head>
+    <body>
+        <!--this div creates a navigation bar at the top of the screen to switch between pages-->
+        <div class="topnav">
+            <a href="index.html">Sign Out</a>
+            <a href="adminCreate.html">Create</a>
+            <a class="active" href="adminAnnouncements.html">Announcements</a>
+        </div>
+        <div id="creatediv">
+            <img height="158px" width = "148px" src="Create.png" id="Image">
+            <!--the following div creates input boxes and buttons required to create and store new announcements-->
+            <div id="create">
+                <h2>Create Announcement</h2> 
+                Category:
+                <select id="categorydropdown">
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="Club">Club</option>
+                    <option value="Team">Team</option>
+                </select>
+                <br>Club name:<br>
+                <input type="text" id="clubinput" style="text-transform:uppercase" placeholder="Enter club name"> 
+                <br>Gender:
+                <!--Creates a dropdown menu with options-->
+                <select id="genderdropdown">
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Any">Any</option>
+                </select>
+                <br>Grade:
+                <select id="gradedropdown">
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="All grades">All grades</option>
+                </select>
+                <br>Message:<br>
+                <textarea rows="8" cols="40" maxlength="100" id="messageinput"></textarea><br>
+                <button type="submit" id="button" onclick="storeannouncement()">Post</button>
+            </div>
+        </div>
+    </body>
+</html>

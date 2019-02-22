@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--The next two following line of code links the javascript and CSS files-->
+        <script src="memberJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="memberFormat.css"/>
+        <title>Clubs</title>
+    </head>
+    <!--the function to update and display member's clubs is performed when the page is opened-->
+    <body onload="onloadclubdisplay()">
+        <!--this div creates a navigation bar at the top of the screen to switch between pages-->
+        <div class="topnav">
+            <a href="index.html">Sign Out</a>
+            <a class="active" href="memberClubs.html">Join</a>
+            <a href="memberAnnouncements.html">Announcements</a>
+            <div id="name"></div>
+        </div>
+        <div id="joindisplaytitle">
+            <h1>Your Clubs/Teams</h1>
+        </div>
+        <!--creates a table that would help create rows for each club the member has joined-->
+        <div id = "container">
+            <div id = "clubtableformat">
+                <table id="clubdisplay"></table>
+            </div>
+            <!--creates input boxes and button to join new clubs-->
+            <div id="addcontainer">
+                <img height="158px" width = "148px" src="Join.png" id="Image">
+                <h2>Join</h2>
+                <div id="addclub">
+                    <input type="text" id="clubname" placeholder="Enter club name" style="text-transform:uppercase"><br>
+                    <button type="submit" id="memberfilterbutton" onclick="memberrequest()">Join</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

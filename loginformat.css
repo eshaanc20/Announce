@@ -1,0 +1,77 @@
+.logincontainer{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    top: 10vh;
+}
+.loginbox{
+    left: 39%;
+    padding: 2% 6%;
+    width: 200px;
+    position: relative;
+    align-content: center;
+    color: white;
+    height: 80%;
+    background-image: url("Background.jpg");
+    border-radius: 40px;
+}
+.image{
+    transform: translate(0px);
+}
+.login{
+    float: left;
+}
+body{
+    background-image: url("Field.jpg");
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 24px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+}
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 24px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+}
+h1{
+    margin-top: 1px;
+}
+h3{
+    float: left;
+}
+input[type="radio"]{
+    font-size: 42px;
+}
+.radiocontainer{
+    font-size: 19px;
+}
+#homelogin{
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    margin-top: 14px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#homeregister{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 14px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+}
