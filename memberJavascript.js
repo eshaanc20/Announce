@@ -250,7 +250,7 @@ function deleteclub(element) {
 }
 
 function memberrequest() {
-    var clubrequest = document.getElementById("clubname").value;
+    var clubrequest = document.getElementById("clubname").value.toUpperCase();
     var user = localStorage.getItem("memberuser");
     var clubarray = JSON.parse(localStorage.getItem(user));
     localStorage.removeItem(user);
